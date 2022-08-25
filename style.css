@@ -58,6 +58,8 @@ body {
 
 body {
   margin: 0;
+
+  background-image: linear-gradient(to right, #ce9ffc, #7367f0);
 }
 
 .app {
@@ -81,6 +83,8 @@ body {
   font-size: 1.5rem;
   font-family: "BioRhyme", serif;
   color: #F6F1D1;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .form {
@@ -150,6 +154,15 @@ body {
 .task.done .check-icon {
   background-color: #0B2027;
 }
+
+.todo-list__description {
+  color: antiquewhite;
+  text-align: center;
+
+  margin-top: 220px;
+  margin-bottom: 0;
+}
+
 
 .content {
   margin: 0;
